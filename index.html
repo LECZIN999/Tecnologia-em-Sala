@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Educacional</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #4caf50; /* Verde de lousa */
+            background-image: linear-gradient(45deg, #4caf50 25%, #5cbb5e 25%, #5cbb5e 50%, #4caf50 50%, #4caf50 75%, #5cbb5e 75%);
+            background-size: 20px 20px;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-shadow: 1px 1px 3px #000;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .site-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .site {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            width: 200px;
+            padding: 10px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .site:hover {
+            transform: scale(1.05);
+        }
+
+        .site img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .site a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Recursos Educacionais Online</h1>
+    </header>
+    <main>
+        <p>Confira alguns sites que podem ajudar nos estudos:</p>
+        <div class="site-list">
+            <div class="site">
+                <img src="https://via.placeholder.com/200x150?text=Google+Acad%C3%AAmico" alt="Google Acadêmico">
+                <a href="https://scholar.google.com.br" target="_blank">Google Acadêmico</a>
+            </div>
+            <div class="site">
+                <img src="https://via.placeholder.com/200x150?text=Khan+Academy" alt="Khan Academy">
+                <a href="https://pt.khanacademy.org" target="_blank">Khan Academy</a>
+            </div>
+            <div class="site">
+                <img src="https://via.placeholder.com/200x150?text=Duolingo" alt="Duolingo">
+                <a href="https://www.duolingo.com" target="_blank">Duolingo</a>
+            </div>
+            <div class="site">
+                <img src="https://via.placeholder.com/200x150?text=Coursera" alt="Coursera">
+                <a href="https://www.coursera.org" target="_blank">Coursera</a>
+            </div>
+            <div class="site">
+                <img src="https://via.placeholder.com/200x150?text=Udemy" alt="Udemy">
+                <a href="https://www.udemy.com" target="_blank">Udemy</a>
+            </div>
+            <div class="site">
+                <img src="https://via.placeholder.com/200x150?text=BBC+Bitesize" alt="BBC Bitesize">
+                <a href="https://www.bbc.co.uk/bitesize" target="_blank">BBC Bitesize</a>
+            </div>
+            <div class="site">
+                <img src="https://via.placeholder.com/200x150?text=Quizlet" alt="Quizlet">
+                <a href="https://quizlet.com" target="_blank">Quizlet</a>
+            </div>
+            <div class="site">
+                <img src="https://via.placeholder.com/200x150?text=National+Geographic" alt="National Geographic Education">
+                <a href="https://education.nationalgeographic.org" target="_blank">National Geographic Education</a>
+            </div>
+            
+            <div class="site">
+                <img src="https://via.placeholder.com/200x150?text=TED-Ed" alt="TED-Ed">
+                <a href="https://ed.ted.com" target="_blank">TED-Ed</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
